@@ -1,4 +1,4 @@
-demo-php
+videnc.com &mdash; Demo PHP Integratio
 ========
 
-A demo of videnc.com's API integration written in PHP
+A demo of <a href="http://videnc.com" target="_blank">videnc.com's</a> API integration written in PHP
