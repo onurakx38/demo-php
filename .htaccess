@@ -1,0 +1,12 @@
+Options All -Indexes
+RewriteEngine On 
+ReWriteRule ^watch(.*)$		watch.php [NC]
+
+AddType video/ogg .ogv
+AddType video/flv .flv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+<IfModule mod_headers.c>
+    Header set Connection keep-alive
+</IfModule>
